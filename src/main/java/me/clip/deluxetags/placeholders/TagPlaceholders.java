@@ -102,7 +102,7 @@ public class TagPlaceholders extends PlaceholderExpansion {
                 if (tag == null) {
                     return "";
                 }
-                return MsgUtils.color(tag.getDisplayTag(player));
+                return tag.getDisplayTag(player);
         }
 
         return null;
